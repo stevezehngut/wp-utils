@@ -1,0 +1,22 @@
+{
+	"name": "zeek/wp-utils",
+	"description": "A collection of functions that provide utility functionality for WordPress.",
+	"type": "library",
+	"license": "proprietary",
+	"autoload": {
+		"psr-4": {
+			"Zeek\\WP_Util\\": "src-psr-4/"
+		},
+		"files": ["package.php"]
+	},
+	"require": {
+		"php": ">=8.0",
+		"arrilot/dotenv-php": "*",
+		"a7/autoload": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	}
+}
